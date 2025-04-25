@@ -25,7 +25,7 @@ def calculate_psnr(img1, img2):
 # === File paths ===
 hr_path = 'images/high_res.jpg'
 lr_path = 'images/low_res_color.jpg'
-sr_path = 'refined_image_color_minibatch.jpg'
+sr_path = 'images/refined_image_color_minibatch.jpg'
 
 # === Load and prepare ===
 hr = load_and_prepare(hr_path)

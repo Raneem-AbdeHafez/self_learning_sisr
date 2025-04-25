@@ -184,14 +184,12 @@ def super_resolve_image(image_path, high_res_path=None, scale_factor=2, patch_si
 
     return result
 
-
-# 8. Run it
 if __name__ == "__main__":
     import time
     start_time = time.time()
 
     low_res_img = 'images/low_res_color.jpg'
-    high_res_img = 'images/high_res.jpg'  # Optional
+    high_res_img = 'images/high_res.jpg'  
 
     result = super_resolve_image(
         low_res_img,
@@ -201,7 +199,7 @@ if __name__ == "__main__":
         stride=4,
         n_iterations=3,
         n_components=100,
-        batch_size=100  # You can adjust the batch size here
+        batch_size=100  
     )
 
     elapsed_time = time.time() - start_time
