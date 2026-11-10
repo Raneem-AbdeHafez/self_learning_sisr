@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage.metrics import peak_signal_noise_ratio as psnr
 
-  # Your super-resolved or upsampled image
+  #  super-resolved or upsampled image
 import cv2
 import numpy as np
 from skimage.metrics import peak_signal_noise_ratio as psnr
